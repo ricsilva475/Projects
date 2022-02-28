@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Insira numeros");
+        
+        String number1 = scanner.nextInt();
+        String number2 = scanner.nextInt();
+        String number3 = scanner.nextInt();
+        
+        System.out.println(number1);
+        System.out.println(number2);
+        System.out.println(number3);
+        
+        scanner.close();
+
+    }
+}
