@@ -9,11 +9,6 @@ public class Main {
 
         // criar instancias de Carro
         Carro carro1 = new Carro("red", "brrrrr");
-        carro1.colour();
-        carro1.sound();
-
-        new Carro("red", "brrrrr").colour();
-        new Carro("red", "brrrrr").sound();
 
         Carro carro2 = new Carro("blue", "GRRRRRR");
 
